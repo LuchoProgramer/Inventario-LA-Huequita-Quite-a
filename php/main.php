@@ -58,7 +58,7 @@
 		$nombre=str_ireplace("$", "_", $nombre);
 		$nombre=str_ireplace(".", "_", $nombre);
 		$nombre=str_ireplace(",", "_", $nombre);
-		$nombre=$nombre."_".rand(0,100);
+		$nombre=$nombre."_".rand(0,250);
 		return $nombre;
 	}
 
